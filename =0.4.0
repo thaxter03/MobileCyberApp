@@ -1,0 +1,9 @@
+cyberApp@0.0.0 /Users/DavidMacLean/CyberApp/cyberApp
+├── grunt@0.4.5  extraneous
+├── grunt-contrib-clean@0.6.0  extraneous
+├── UNMET PEER DEPENDENCY grunt-contrib-coffee@0.12.0
+├── UNMET PEER DEPENDENCY grunt-contrib-concat@0.5.0
+├── UNMET PEER DEPENDENCY grunt-contrib-copy@0.7.0
+├── UNMET PEER DEPENDENCY grunt-contrib-sass@0.9.2 extraneous
+└── UNMET PEER DEPENDENCY grunt-extend-config@0.9.2
+

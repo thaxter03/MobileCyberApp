@@ -1,0 +1,65 @@
+
+
+div#table-body {
+    height:auto;
+    width:auto;
+}
+
+.card {
+    position:relative;
+    border:1px solid #aaa;
+    height:70px;
+    width:90%;
+    padding:5px;
+    margin:1% auto;
+    font-size: 11px;
+    background-color: #eee;
+    color:#333;
+    font-family:Arial, sans-serif;
+    display:block;
+}
+
+
+.card span {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+span#inboxTitle{
+    position:absolute;
+    margin:0;
+    padding:5px;
+    top:0;
+    left:0;
+}
+span#inboxTask {
+    position:absolute;
+    margin:0;
+    padding:5px;
+    bottom:0;
+    left:0;    
+}
+span#inboxProtNum {
+    position:absolute;
+    margin:0;
+    padding:5px;
+    top:0;
+    right:0;
+}
+span#inboxType {
+    position:absolute;
+    margin:0;
+    padding:5px;
+    bottom:0;
+    right:0;
+}
+
+div#cardInfo {
+ /*   width: 100%;
+    height: 100%; */
+    cursor: pointer;
+    display:block;
+    z-index: 999;
+}

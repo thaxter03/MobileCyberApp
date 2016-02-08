@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+      <link rel="stylesheet" href="/app/common/stylesheets/drawer.css">
+      <script>
+          document.addEventListener("touchmove", function(e){
+            e.preventDefault();
+          });
+      </script>
+    </head>
+    <body>
+        <h1 id="drawerHeader"><p>Menu</p></h1>
+
+            <div id = "drawerButtons">
+                <super-navigate location="inbox#index">
+                    <button class="button button-block icon-left super-email " onclick="supersonic.ui.drawers.close()">My Inbox</button>
+                </super-navigate>
+
+                <super-navigate location="inProgress#index">
+                    <button class="button button-block icon-left super-ios-more" onclick="supersonic.ui.drawers.close()">Protocols in Progress</button>
+                </super-navigate>
+
+                <super-navigate location="approved#index">
+                    <button class="button button-block icon-left super-checkmark-circled" onclick="supersonic.ui.drawers.close()">Approved Protocols</button>
+                </super-navigate>
+
+                <super-navigate location="agenda#index">
+                    <button class="button button-block icon-left super-clipboard" onclick="supersonic.ui.drawers.close()">Agenda</button>
+                </super-navigate>
+            </div>
+    </body>
+</html>

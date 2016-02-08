@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    background-color:antiquewhite;
+}
+
+#Login {
+    border: solid 1px #eee;
+    margin: 5% auto;
+    width: 90%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+#Login h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+div.padding.item.item-divider {
+    background-color: aliceblue;
+}
+
+.loginButton {
+    width:60%;
+}
+
+.signin-card {
+    text-align: center;
+    margin: 0 auto;
+    width:95%;
+    padding:5%;
+   
+}
+
+.signin-card input {
+    padding-top: 8%;
+}
+
+
+.center {
+    margin: auto;
+    text-align:center;
+    width:100%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+      <link rel="stylesheet" href="/app/common/stylesheets/drawer.css">
+      <script>
+          document.addEventListener("touchmove", function(e){
+            e.preventDefault();
+          });
+      </script>
+    </head>
+    
+    <h1 id="drawerHeader"><p>CyberIRB</p></h1>
+    
+    <ul class="list">
+        <li class="item" onclick="supersonic.ui.drawers.close()">
+            <super-navigate location="inbox#index">
+              <button class="button button-block button-positive icon-left super-email ">My Inbox</button>
+            </super-navigate>
+        </li>
+     
+        <li class="item" onclick="supersonic.ui.drawers.close()">
+            <super-navigate location="inProgress#index">
+                <button class="button button-block button-positive icon-left super-ios-more">Protocols in Progress</button>
+            </super-navigate>
+        </li>
+        
+        <li class="item" onclick="supersonic.ui.drawers.close()">
+         <super-navigate location="approved#index">
+          <button class="button button-block button-positive icon-left super-checkmark-circled">Approved Protocols</button>
+        </super-navigate>
+        </li>
+        
+        <li class="item" onclick="supersonic.ui.drawers.close()">
+         <super-navigate location="agenda#index">
+          <button class="button button-block button-positive icon-left super-clipboard" onclick="supersonic.ui.drawers.close()">Agenda</button>
+        </super-navigate>
+        </li>
+    
+</html>

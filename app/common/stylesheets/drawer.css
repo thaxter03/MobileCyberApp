@@ -1,0 +1,25 @@
+body {
+ background-color: blanchedalmond;   
+}
+
+#drawerHeader {
+    background-color:deepskyblue;
+    height:15px;
+    width: 100%;
+}
+
+#drawerHeader p { 
+    color:#fff; 
+    text-align: left;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#drawerButtons {
+    width: 100%;
+    margin: auto;
+}
+
+h1#drawerHeader {
+ margin: 0;   
+}
